@@ -42,7 +42,7 @@
     "grafanaDnsPrefix": "[concat('grafana', uniqueString(resourceGroup().id))]",
     "kubernetesDnsPrefix": "[concat('kubernetes', uniqueString(resourceGroup().id))]",
     "kubernetesClusterName": "[concat('aks', uniqueString(resourceGroup().id))]",
-    "kubernetesVersion": "1.16.7",
+    "kubernetesVersion": "1.16.8",
     "kubernetesAgentCount": 2,
     "kubernetesAgentVMSize": "Standard_D2s_v3",
     "gitRepository": "https://github.com/iainfoulds/devops-jenkins-aks",
